@@ -1,0 +1,15 @@
+<!-- create_legal_request.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Create Legal Request{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Create Legal Request</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Update Client{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Update Client</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        
+        <button type="submit">Update</button>
+    </form>
+</div>
+{% endblock %}

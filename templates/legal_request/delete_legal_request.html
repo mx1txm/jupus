@@ -1,0 +1,16 @@
+<!-- delete_legal_request.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Delete Legal Request{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Delete Legal Request</h1>
+    <p>Are you sure you want to delete this legal request?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Delete</button>
+    </form>
+    <a href="{% url 'legal_request_list' %}">Cancel</a>
+</div>
+{% endblock %}

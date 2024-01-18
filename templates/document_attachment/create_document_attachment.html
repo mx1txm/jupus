@@ -1,0 +1,16 @@
+{% extends "jupusApp/base.html" %}
+{% block title %}Create Document Attachment{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Create Document Attachment</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+    
+    <a href="{% url 'document_attachment_list' %}">Back to Document Attachments</a>
+</div>
+{% endblock %}

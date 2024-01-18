@@ -1,0 +1,18 @@
+<!-- legal_request_detail.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Legal Request Detail{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Legal Request Detail</h1>
+    <div class="legal-request-details">
+        <p><strong>Case Description:</strong> {{ legal_request.case_description }}</p>
+        <p><strong>Case Type:</strong> {{ legal_request.case_type }}</p>
+        <p><strong>Status:</strong> {{ legal_request.status }}</p>
+        <p><strong>Submission Date:</strong> {{ legal_request.submission_date }}</p>
+        <!-- Add more fields as needed -->
+    </div>
+    <a href="{% url 'legal_request_list' %}">Back to Legal Requests</a>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+<!-- document_attachment_list.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Document Attachments List{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Document Attachments List</h1>
+    
+    <table class="document-attachments">
+        <thead>
+            <tr>
+                <th>Document</th>
+                <th>Uploaded Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for attachment in document_attachments %}
+            <tr>
+                <td>{{ attachment.document.name }}</td>
+                <td>{{ attachment.uploaded_date }}</td>
+                <td>
+                    <a href="{% url 'update_document_attachment' attachment.id %}">Update</a>
+                    <a href="{% url 'delete_document_attachment' attachment.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

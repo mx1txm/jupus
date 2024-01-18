@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73cea761-44af-4a42-b03c-2de79397eeae" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jupProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupProject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/client_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/create_client.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/create_legal_request.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/dashboard2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/legal_request_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/update_client.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/static/css/update_legal_request.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jupusApp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/client_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/client_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/create_client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/delete_client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/client/update_client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/document_attachment/create_document_attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/document_attachment/delete_document_attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/document_attachment/document_attachment_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/document_attachment/update_document_attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/dashboard2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/legal_requests_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/jupusApp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/legal_request/create_legal_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/legal_request/delete_legal_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/legal_request/legal_request_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/legal_request/legal_request_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/legal_request/update_legal_request.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2b4zUKN7Q5N5WQnv8n1QiOhiLEj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.jupProject.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.dashboard.html.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jupusApp/static" />
+      <recent name="$PROJECT_DIR$/templates/jupusApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.dashboard.html">
+    <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jupProject/templates/legal_request/dashboard.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jupProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="jupProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="jupProject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.dashboard.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73cea761-44af-4a42-b03c-2de79397eeae" name="Changes" comment="" />
+      <created>1705489154678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705489154678</updated>
+      <workItem from="1705489159715" duration="8405000" />
+      <workItem from="1705503920137" duration="1696000" />
+      <workItem from="1705516620927" duration="9767000" />
+      <workItem from="1705548705654" duration="6419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>

@@ -1,0 +1,51 @@
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Legal Requests Dashboard{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Legal Requests Dashboard</h1>
+    
+    <!-- Filter and Search -->
+    <div class="filter-search">
+        <label for="status-filter">Filter by Status:</label>
+        <select id="status-filter">
+            <option value="all">All</option>
+            <option value="open">Open</option>
+            <option value="in_progress">In Progress</option>
+            <option value="completed">Completed</option>
+            <option value="rejected">Rejected</option>
+        </select>
+        
+        <input type="text" id="search-input" placeholder="Search...">
+    </div>
+    
+    <!-- Legal Requests List -->
+    <table class="legal-requests">
+        <thead>
+            <tr>
+                <th>Case Description</th>
+                <th>Case Type</th>
+                <th>Submission Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for request in legal_requests %}
+            <tr>
+                <td>{{ request.case_description }}</td>
+                <td>{{ request.case_type }}</td>
+                <td>{{ request.submission_date }}</td>
+                <td>{{ request.status }}</td>
+                <td>
+                    <a href="{% url 'view_request' request.id %}">View</a>
+                    <a href="{% url 'edit_request' request.id %}">Edit</a>
+                    <a href="{% url 'delete_request' request.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

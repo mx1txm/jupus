@@ -1,0 +1,26 @@
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Client Detail{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Client Detail</h1>
+    
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>{{ client.name }}</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>{{ client.email }}</td>
+        </tr>
+        <tr>
+            <th>Phone:</th>
+            <td>{{ client.phone }}</td>
+        </tr>
+    </table>
+    
+    <a href="{% url 'client_list' %}">Back to Client List</a>
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+<!-- delete_document_attachment.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Delete Document Attachment{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Delete Document Attachment</h1>
+    <p>Are you sure you want to delete this document attachment?</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Yes, Delete</button>
+        <a href="{% url 'document_attachment_list' %}">Cancel</a>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+<!-- legal_request_list.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Legal Requests List{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Legal Requests List</h1>
+    <table class="legal-request-table">
+        <thead>
+            <tr>
+                <th>Case Description</th>
+                <th>Case Type</th>
+                <th>Status</th>
+                <th>Submission Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for legal_request in legal_requests %}
+            <tr>
+                <td>{{ legal_request.case_description }}</td>
+                <td>{{ legal_request.case_type }}</td>
+                <td>{{ legal_request.status }}</td>
+                <td>{{ legal_request.submission_date }}</td>
+                <td>
+                    <a href="{% url 'legal_request_detail' legal_request.id %}">View</a>
+                    <a href="{% url 'legal_request_update' legal_request.id %}">Edit</a>
+                    <a href="{% url 'legal_request_delete' legal_request.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{% url 'create_legal_request' %}">Create Legal Request</a>
+</div>
+{% endblock %}

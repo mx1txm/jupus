@@ -1,0 +1,31 @@
+<!-- base.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Law Firm - Legal Requests</title>
+    <!-- Add your CSS links or stylesheets here -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{% url 'register' %}">Register</a></li>
+                <li><a href="{% url 'legal_request_list' %}">Dashboard</a></li> 
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; {{ year }} Jupus. All rights reserved.</p>
+    </footer>
+    <!-- Add your JavaScript scripts or links here -->
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Delete Client{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Delete Client</h1>
+    <p>Are you sure you want to delete this client?</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Confirm Delete</button>
+    </form>
+    
+    <a href="{% url 'client_list' %}">Cancel</a>
+</div>
+{% endblock %}

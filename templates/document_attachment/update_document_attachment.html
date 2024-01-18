@@ -1,0 +1,17 @@
+<!-- update_document_attachment.html -->
+{% extends "jupusApp/base.html" %}
+
+{% block title %}Update Document Attachment{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Update Document Attachment</h1>
+    
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+        <a href="{% url 'document_attachment_list' %}">Cancel</a>
+    </form>
+</div>
+{% endblock %}
